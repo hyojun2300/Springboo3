@@ -1,0 +1,6 @@
+insert into courses (id, name, author)
+values(1, 'Learn AWS', 'in28minutes');
+
+select *from courses
+
+delete from courses where id=1 
